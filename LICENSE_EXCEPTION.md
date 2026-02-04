@@ -1,9 +1,95 @@
-Copyright <YEAR> <COPYRIGHT HOLDER>
+License exceptions: 
+1. Use-Based Restrictions
+EX-NON-COMMERCIAL
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Label: Non-Commercial Use Restriction
+Template (abstract):
 
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Use of the Licensed Work is restricted to non-commercial purposes. Any use primarily intended for or directed toward commercial advantage or monetary compensation is excluded.
 
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Risk signal: High incompatibility with permissive / copyleft licenses
+Typical omission risk: Downstream assumes commercial use is allowed
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+EX-FIELD-OF-USE
+
+Label: Field-of-Use Restriction
+Template:
+
+Use of the Licensed Work is prohibited in the following field(s): [FIELD_LIST].
+
+Parameters: FIELD_LIST
+Risk signal: License incompatibility; violates OSD
+Common fields: medical, financial, military, surveillance
+
+EX-NO-PRODUCTION
+
+Label: No Production Use
+Template:
+
+The Licensed Work may not be used in production environments or in systems providing services to end users.
+
+2. Attribution & Notice Extensions
+EX-ENHANCED-ATTRIBUTION
+
+Label: Enhanced Attribution Requirement
+Template:
+
+Attribution must be provided in the following form and location(s): [ATTRIBUTION_FORM], [LOCATION].
+
+Parameters: attribution format, placement
+Risk signal: Attribution stacking
+
+EX-NOTICE-PRESERVATION
+
+Label: Notice Preservation
+Template:
+
+All copyright, license, and attribution notices must be preserved in any redistribution, whether in source or binary form.
+
+3. Redistribution & Derivative Constraints
+EX-NO-REDISTRIBUTION
+
+Label: No Redistribution
+Template:
+
+Redistribution of the Licensed Work, in whole or in part, is not permitted.
+
+Risk signal: Severe downstream blockage
+
+EX-DERIVATIVE-RESTRICTION
+
+Label: Derivative Work Restriction
+Template:
+
+Creation and distribution of derivative works are permitted only under the conditions specified in [CONDITIONS].
+
+EX-SOURCE-DISCLOSURE-MOD
+
+Label: Modified Source Disclosure
+Template:
+
+Modified versions must make the source code of the modifications available under terms specified in [DISCLOSURE_TERMS].
+
+4. Copyleft Modifications / Exceptions
+EX-WEAK-COPYLEFT
+
+Label: Weak Copyleft Extension
+Template:
+
+Copyleft obligations apply only to files containing substantial portions of the Licensed Work.
+
+EX-LINKING-EXCEPTION
+
+Label: Linking Exception
+Template:
+
+Mere linking with independent modules does not cause the resulting work to be covered by this License.
+
+Reference practice: GPL-style exceptions
+
+EX-PLUGIN-EXCEPTION
+
+Label: Plugin Exception
+Template:
+
+Plugins or extensions interfacing through defined APIs are excluded from copyleft obligations.
